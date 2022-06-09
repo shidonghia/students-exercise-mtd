@@ -1,0 +1,8 @@
+.main-page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 16px;
+  min-height: 95vh;
+  box-shadow: 0 1px 4px 0 rgb(0 0 0 / 26%);
+  padding-top: 24px;
+}

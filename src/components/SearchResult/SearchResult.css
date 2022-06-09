@@ -1,0 +1,26 @@
+.search-result-container {
+  margin: 32px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search-result-container table {
+  border: 1px solid #333;
+  border-collapse: collapse;
+}
+
+.search-result-container table tbody tr:not(:last-child),
+.search-result-container table thead tr
+{
+  border-bottom: 1px solid #333;
+}
+
+.search-result-container table tbody tr td:not(:last-child),
+.search-result-container table thead tr th:not(:last-child) {
+  border-right: 1px solid #333;
+}
+
+.search-result-container table thead tr th {
+  min-width: 60px;
+  padding: 4px 12px;
+}
